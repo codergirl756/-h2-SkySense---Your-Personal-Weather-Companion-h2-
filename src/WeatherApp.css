@@ -1,0 +1,50 @@
+/* WeatherApp.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff9e6; /* light cream */
+}
+
+.WeatherApp {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #8b5e3c; /* soft brown for heading */
+    margin-bottom: 20px;
+}
+
+/* SearchBox.css */
+.SearchBox {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.SearchBox form {
+    display: inline-block;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* InfoBox.css */
+.InfoBox {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.MuiCard-root {
+    border-radius: 15px !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1) !important;
+}
